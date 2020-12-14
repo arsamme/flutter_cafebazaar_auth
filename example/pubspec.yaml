@@ -1,0 +1,19 @@
+name: cafebazaar_auth_example
+description: Demonstrates how to use the cafebazaar_auth plugin.
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cafebazaar_auth:
+    path: ../
+
+dev_dependencies:
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,21 @@
+name: cafebazaar_auth
+description: A new Flutter plugin.
+version: 0.0.1
+homepage: https://github.com/arsamme/flutter_cafebazaar_auth
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: me.arsam.cafebazaar_auth
+        pluginClass: CafeBazaarAuthPlugin
