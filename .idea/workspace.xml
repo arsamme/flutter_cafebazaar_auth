@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4145d86-5b01-4197-91da-00d47300d949" name="Default Changelist" comment="" />
+    <list default="true" id="a4145d86-5b01-4197-91da-00d47300d949" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/cafebazaar_account.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/cafebazaar_update_info.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/me/arsam/cafebazaar_auth/CafeBazaarAuthPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/me/arsam/cafebazaar_auth/CafeBazaarAuthPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafebazaar_auth.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ars_cafebazaar_auth.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cafebazaar_auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cafebazaar_auth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/bazaar_account.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/bazaar_update_info.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +50,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ldxXF9e22heEo9H07YK55Gtj2s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,14 +64,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MarkdownNavigator.Settings.Preview" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/lib/src" />
+      <recent name="$PROJECT_DIR$/lib" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -44,26 +98,46 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="480" y="290" width="950" height="533" key="#PSD" timestamp="1607941105720">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="480" y="290" width="950" height="533" key="#PSD/0.30.1920.1050@0.30.1920.1050" timestamp="1607941105720" />
-    <state width="1193" height="296" key="GridCell.Tab.0.bottom" timestamp="1607953242079">
+    <state width="1920" height="296" key="GridCell.Tab.0.bottom" timestamp="1607959362328">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1193" height="296" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607953242079" />
-    <state width="1193" height="296" key="GridCell.Tab.0.center" timestamp="1607953242079">
+    <state width="1920" height="296" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1607959362328" />
+    <state width="1920" height="296" key="GridCell.Tab.0.center" timestamp="1607959362326">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1193" height="296" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607953242079" />
-    <state width="1193" height="296" key="GridCell.Tab.0.left" timestamp="1607953242079">
+    <state width="1920" height="296" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1607959362326" />
+    <state width="1920" height="296" key="GridCell.Tab.0.left" timestamp="1607959362325">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1193" height="296" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607953242079" />
-    <state width="1193" height="296" key="GridCell.Tab.0.right" timestamp="1607953242079">
+    <state width="1920" height="296" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1607959362325" />
+    <state width="1920" height="296" key="GridCell.Tab.0.right" timestamp="1607959362327">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1193" height="296" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607953242079" />
+    <state width="1920" height="296" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1607959362327" />
+    <state x="464" y="190" width="992" height="733" key="SettingsEditor" timestamp="1607954430689">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="464" y="190" width="992" height="733" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1607954430689" />
+    <state x="100" y="130" width="1720" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607954817676">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="100" y="130" width="1720" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607954817676" />
   </component>
 </project>

@@ -44,7 +44,7 @@ class CafeBazaarAuthPlugin : FlutterPlugin, MethodCallHandler, ActivityAware, Pl
             "isNeededToUpdateBazaar" -> result.success(BazaarClientProxy.isNeededToUpdateBazaar(context).toMap())
             "showInstallBazaarView" -> showBazaarInstallView(result)
             "showUpdateBazaarView" -> showBazaarUpdateView(result)
-            "startSignIn" -> startSignIn(result)
+            "signIn" -> startSignIn(result)
             "getLastSignedInAccount" -> getLastSignedInAccount(result)
             "saveData" -> saveData(call, result)
             "getSavedData" -> getSavedData(result)

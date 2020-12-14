@@ -13,7 +13,5 @@ dependencies:
   cafebazaar_auth:
     path: ../
 
-dev_dependencies:
-
 flutter:
   uses-material-design: true

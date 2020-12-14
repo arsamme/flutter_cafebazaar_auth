@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
-import 'dart:async';
-
-import 'package:flutter/services.dart';
 import 'package:cafebazaar_auth/cafebazaar_auth.dart';
+import 'package:cafebazaar_auth/cafebazaar_login_button.dart';
+
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,6 +13,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  signIn() async {
+    var account = await CafeBazaarAuth.signIn();
+    print(account.accountID);
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,7 +26,18 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Plugin example app'),
         ),
         body: Center(
-          child: Text("Hello"),
+          child: Directionality(
+            textDirection: TextDirection.rtl,
+            child: Container(
+              width: 180,
+              child: CafeBazaarLoginButton(
+                text: "ورود با بازار",
+                textStyle: TextStyle(color: Colors.white),
+                iconSize: 28,
+                onPressed: signIn,
+              ),
+            ),
+          ),
         ),
       ),
     );
