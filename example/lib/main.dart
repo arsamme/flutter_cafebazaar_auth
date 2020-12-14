@@ -31,9 +31,6 @@ class _MyAppState extends State<MyApp> {
             child: Container(
               width: 180,
               child: CafeBazaarLoginButton(
-                text: "ورود با بازار",
-                textStyle: TextStyle(color: Colors.white),
-                iconSize: 28,
                 onPressed: signIn,
               ),
             ),

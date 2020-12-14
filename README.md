@@ -44,7 +44,7 @@ To display Bazaar login button in your application, you can use the following Wi
 
 ```
 CafeBazaarLoginButton(
-    text: "ورود با بازار",                          // Optional
+    text: "Login With Bazaar",                      // Optional
     textStyle: TextStyle(color: Colors.white),      // Optional
     iconSize: 28,                                   // Optional, Default: 36
     onPressed: signIn,                              // Required
