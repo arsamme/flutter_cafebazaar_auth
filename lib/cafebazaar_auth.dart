@@ -51,7 +51,7 @@ class CafeBazaarAuth {
   }
 
   /// Save data
-  static Future<String?> saveData(String data) =>
+  static Future<String?> saveDsaveData(String data) =>
       _channel.invokeMethod("saveData", {"data": data});
 
   /// Get saved data

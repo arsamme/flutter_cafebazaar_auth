@@ -7,12 +7,12 @@ In the first step, Bazaar gives you a unique user id for each user/app which rem
 To start working with `CafeBazaarAuth`, you'll need to add its this package to your `pubspec.yaml` file:
 
 ```
-ars_cafebazaar_auth: [LATEST_VERSION]
+cafebazaar_auth: ^1.0.2
 ```
 
 Then import it :
 
-```
+``` dart
 import 'package:cafebazaar_auth/cafebazaar_auth.dart';
 ```
 
@@ -20,8 +20,8 @@ import 'package:cafebazaar_auth/cafebazaar_auth.dart';
 
 To authenticate user, you'll need to use `signIn` function:
 
-```
-BazaarAccount account = await CafeBazaarAuth.signIn();
+``` dart
+BazaarAccount? account = await CafeBazaarAuth.signIn();
 
 print(account.id);
 ```
@@ -33,8 +33,8 @@ In case the user has granted the login access, the returned `account` is not nul
 
 In case the user has already granted the access, use the following getter to get the latest data:
 
-```
-BazaarAccount account = await CafeBazaarAuth.lastSignedInAccount;
+``` dart
+BazaarAccount? account = await CafeBazaarAuth.lastSignedInAccount;
 ```
 
 In case the user has not granted the login access, the `account` value is null.
@@ -42,7 +42,7 @@ In case the user has not granted the login access, the `account` value is null.
 
 To display Bazaar login button in your application, you can use the following Widget:
 
-```
+``` dart
 CafeBazaarLoginButton(
     text: "Login With Bazaar",                      // Optional
     textStyle: TextStyle(color: Colors.white),      // Optional
@@ -57,30 +57,30 @@ You can also design and use your own widget.
 
 To save the user data, you'll need to call the following method:
 
-```
- var savedData = await CafeBazaarAuth.saveData("My String Data");
+``` dart
+String? savedData = await CafeBazaarAuth.saveData("My String Data");
 ```
 
 You can get access to saved data by the following getter:
 
-```
- var savedData = await CafeBazaarAuth.savedData;
+``` dart
+String? savedData = await CafeBazaarAuth.savedData;
 ```
 
 # Security notes
 
 In order to prevent phishing and information theft, use the following getter to ensure that the correct version of Bazaar is available on the user device:
 
-```
-bool isBazaarInstalled = CafeBazaarAuth.isBazaarInstalledOnDevice;
+``` dart
+bool? isBazaarInstalled = CafeBazaarAuth.isBazaarInstalledOnDevice;
 ```
 
 # Bazaar in client device
 
 To ensure that the Bazaar app version on the user device supports Bazaar login and in-app storage, use the following getter:
 
-```
-CafeBazaarUpdateInfo updateInfo = CafeBazaarAuth.isBazaarInstalledOnDevice;
+``` dart
+CafeBazaarUpdateInfo? updateInfo = CafeBazaarAuth.isNeededToUpdateBazaar;
 
 print(updateInfo.needToUpdateForAuth);
 print(updateInfo.needToUpdateForStorage);
@@ -88,12 +88,12 @@ print(updateInfo.needToUpdateForStorage);
 
 If the Bazaar app is not installed, you can use following method:
 
-```
+``` dart
 CafeBazaarAuth.showInstallBazaarView();
 ```
 
 In case an update for the Bazaar app is required, use the following method:
 
-```
+``` dart
 CafeBazaarAuth.showUpdateBazaarView();
 ```
