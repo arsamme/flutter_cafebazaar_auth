@@ -1,5 +1,5 @@
 class CafeBazaarAccount{
-  final String accountID;
+  final String? accountID;
 
-  CafeBazaarAccount(this.accountID);
+  CafeBazaarAccount({this.accountID});
 }

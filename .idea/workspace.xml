@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4145d86-5b01-4197-91da-00d47300d949" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/example/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cafebazaar_auth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cafebazaar_auth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/cafebazaar_login_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/cafebazaar_login_button.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/cafebazaar_account.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/cafebazaar_account.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/cafebazaar_update_info.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/cafebazaar_update_info.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +134,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="100" y="130" width="1720" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1607954817676" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1615046413441">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615046413441" />
     <state x="623" y="261" width="672" height="678" key="search.everywhere.popup" timestamp="1607960232877">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

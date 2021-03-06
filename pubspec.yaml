@@ -1,10 +1,10 @@
 name: cafebazaar_auth
 description: With this package you can use CafeBazaar auth and storage in flutter applications, This package only supports Android applications.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/arsamme/flutter_cafebazaar_auth
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
   flutter: ">=1.20.0"
 
 dependencies:
@@ -14,7 +14,7 @@ dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - packages/cafebazaar_auth/assets/images/bazaar.png
+    - assets/images/bazaar.png
 
   plugin:
     platforms:

@@ -11,13 +11,13 @@ class CafeBazaarAuth {
       const MethodChannel('ars_cafebazaar_auth/method_ch');
 
   /// To check if bazaar is installed on device or not, returns bool
-  static Future<bool> get isBazaarInstalledOnDevice =>
+  static Future<bool?> get isBazaarInstalledOnDevice =>
       _channel.invokeMethod("isBazaarInstalledOnDevice");
 
   /// To check if bazaar needs to update, to support auth or storage
   static Future<CafeBazaarUpdateInfo> get isNeededToUpdateBazaar async {
-    var updateInfo = await _channel
-        .invokeMapMethod<String, dynamic>("isNeededToUpdateBazaar");
+    var updateInfo = await (_channel
+        .invokeMapMethod<String, dynamic>("isNeededToUpdateBazaar") as FutureOr<Map<String, dynamic>>);
     return CafeBazaarUpdateInfo(updateInfo["needToUpdateForAuth"],
         updateInfo["needToUpdateForStorage"]);
   }
@@ -33,27 +33,27 @@ class CafeBazaarAuth {
   }
 
   /// Sign in with bazaar
-  static Future<CafeBazaarAccount> signIn() async {
+  static Future<CafeBazaarAccount?> signIn() async {
     var bazaarAccount =
         await _channel.invokeMapMethod<String, dynamic>("signIn");
     return bazaarAccount == null
         ? null
-        : CafeBazaarAccount(bazaarAccount["accountId"]);
+        : CafeBazaarAccount(accountID: bazaarAccount["accountId"]);
   }
 
   /// Get signed in account
-  static Future<CafeBazaarAccount> get lastSignedInAccount async {
-    var bazaarAccount = await _channel
+  static Future<CafeBazaarAccount?> get lastSignedInAccount async {
+    Map<String, dynamic>? bazaarAccount = await _channel
         .invokeMapMethod<String, dynamic>("getLastSignedInAccount");
     return bazaarAccount == null
         ? null
-        : CafeBazaarAccount(bazaarAccount["accountId"]);
+        : CafeBazaarAccount(accountID: bazaarAccount["accountId"]);
   }
 
   /// Save data
-  static Future<String> saveData(String data) =>
+  static Future<String?> saveData(String data) =>
       _channel.invokeMethod("saveData", {"data": data});
 
   /// Get saved data
-  static Future<String> get savedData => _channel.invokeMethod("getSavedData");
+  static Future<String?> get savedData => _channel.invokeMethod("getSavedData");
 }

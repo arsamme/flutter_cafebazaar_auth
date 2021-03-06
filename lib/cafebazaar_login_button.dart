@@ -1,25 +1,27 @@
 import 'package:flutter/material.dart';
 
-// ignore: must_be_immutable
 class CafeBazaarLoginButton extends StatelessWidget {
   /// Button Text
   final String text;
+
   /// Button Text TextStyle
   final TextStyle textStyle;
+
   /// Icon Size, for both width and height
   final double iconSize;
+
   /// OnPressed Callback
   final GestureTapCallback onPressed;
 
   CafeBazaarLoginButton({
-    Key key,
+    Key? key,
     this.text: "ورود با بازار",
     this.textStyle: const TextStyle(
       fontWeight: FontWeight.bold,
       color: Colors.white,
     ),
     this.iconSize: 36,
-    @required this.onPressed,
+    required this.onPressed,
   }) : super(key: key);
 
   @override

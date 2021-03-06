@@ -14,8 +14,8 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   signIn() async {
-    var account = await CafeBazaarAuth.signIn();
-    print(account.accountID);
+    CafeBazaarAccount? account = await CafeBazaarAuth.signIn();
+    print(account?.accountID??'-');
   }
 
   @override
