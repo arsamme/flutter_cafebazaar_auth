@@ -7,7 +7,7 @@ In the first step, Bazaar gives you a unique user id for each user/app which rem
 To start working with `CafeBazaarAuth`, you'll need to add its this package to your `pubspec.yaml` file:
 
 ```
-cafebazaar_auth: ^1.0.2
+cafebazaar_auth: ^1.0.4
 ```
 
 Then import it :
